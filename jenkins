@@ -1,9 +1,9 @@
 node{
-def MavenHome = tool name: "maven3.9.4"
-# MavenHome=/opt/maven-web-applicaton.war/tools/hudson/maven3.9.4
+
 try {
         notifyBuild('STARTED')
 
+def MavenHome = tool name: "maven3.9.4"
 
 
 stage('CheckOutCode'){
